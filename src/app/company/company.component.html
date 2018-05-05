@@ -1,0 +1,37 @@
+<div class="happ-container">
+    <mat-toolbar>
+        <div fxLayout="column">
+            <h2>
+                Persona24
+            </h2>
+            <span style="font-size: 12px;">
+                        Aplikacja do zarządzani danymi osobowymi w ramach usługi iodo24.pl
+                    </span>
+        </div>
+        <span fxFlex></span>
+        <h3>Lista danych firmy XXX</h3>
+        <span fxFlex></span>
+        <img style="height: 50px;" src="../assets/img/1.png">
+    </mat-toolbar>
+    <div fxLayout="row" style="padding:15px;">
+        <div style="max-width: 165px; border: 1px solid rgba(0,0,0,0.3); padding: 33px 20px;" fxLayout="column" fxLayoutAlign="space-around">
+            <button routerLink="/main" mat-raised-button>Strona główna</button>
+            <button routerLink="/your-data" color="primary" mat-raised-button>Twoje dane</button>
+            <button routerLink="/approvals" mat-raised-button>Zgody</button>
+            <button routerLink="/appeals" mat-raised-button>Wnioski</button>
+            <button routerLink="/information" mat-raised-button>Informacje</button>
+        </div>
+
+        <div fxFlex style="border: 1px solid rgba(0,0,0,0.3); border-left: 0px;padding: 5px;height: 80vh; overflow: auto; padding: 5px 27px; width: 100%;">
+
+            <fieldset>
+                <legend>zbiór danych osobowych:</legend>
+                <div fxLayout="row">
+                    <p>Imię i nazwisko CEO</p>
+                    <span fxFlex></span>
+                    <a routerLink="/your-data/company/data-set"><button mat-raised-button>wybierz</button></a>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</div>

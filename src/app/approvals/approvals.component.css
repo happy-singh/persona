@@ -1,0 +1,236 @@
+#container {
+    width: 1100px;
+    height: 502px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://zapodaj.net/images/47a9785ebfd7a.png");
+    background-size: auto;
+    -webkit-box-shadow: 4px 4px 40px 1px rgba(148, 148, 148, 0.75);
+    -moz-box-shadow: 4px 4px 40px 1px rgba(148, 148, 148, 0.75);
+    box-shadow: 4px 4px 40px 1px rgba(148, 148, 148, 0.75);
+    border: 0px rgb(192, 192, 192) groove;
+    border-radius: 5px;
+    color: rgb(61, 61, 61);
+    font-family: 'Signika', sans-serif;
+}
+
+#persona {
+    border: 1px rgb(138, 138, 138) solid;
+    border-radius: 5px;
+    float: left;
+    height: 500px;
+    width: 170px;
+}
+
+#persona>ul {
+    margin-right: 20px;
+}
+
+#persona>ul>a>button {
+    list-style-type: none;
+    background-color: lightgray;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    border-radius: 5px;
+    font-size: 11px;
+    width: 100px;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 30px;
+    -webkit-box-shadow: 4px 4px 7px 1px rgba(148, 148, 148, 0.75);
+    -moz-box-shadow: 4px 4px 7px 1px rgba(148, 148, 148, 0.75);
+    box-shadow: 4px 4px 7px 1px rgba(148, 148, 148, 0.75);
+}
+
+#persona>ul>a>button:hover {
+    background-color: rgb(158, 158, 158);
+}
+
+#description {
+    border: 1px rgb(138, 138, 138) solid;
+    border-radius: 5px;
+    margin-left: 188px;
+    margin-right: auto;
+    text-align: center;
+}
+
+#view {
+    border: 1px rgb(138, 138, 138) solid;
+    border-radius: 5px;
+    float: left;
+    width: 850px;
+    margin-left: 16px;
+    margin-top: 10px;
+    height: 385px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: auto;
+}
+
+#container>#buttons>button {
+    list-style-type: none;
+    background-color: lightgray;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 100px;
+    padding: 7px;
+    float: left;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 4px 7px 1px rgba(148, 148, 148, 0.75);
+    -moz-box-shadow: 4px 4px 7px 1px rgba(148, 148, 148, 0.75);
+    box-shadow: 4px 4px 7px 1px rgba(148, 148, 148, 0.75);
+}
+
+#buttons {
+    margin-left: 200px;
+}
+
+#view ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#view ul li button {
+    background-color: lightgray;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    border: .5px rgb(161, 161, 161) solid;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 160px;
+    padding: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+#view table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#view tbody td {
+    border: 1px rgb(160, 160, 160) solid;
+    text-align: center;
+}
+
+#view tbody tr td button {
+    background-color: lightgray;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    border: .5px rgb(161, 161, 161) solid;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 60px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+table {
+    background: #fff;
+}
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+    text-align: center;
+    margin: auto;
+    border: 1px solid #dedede;
+    padding: 8px 20px;
+    width: 50%;
+}
+
+.table {
+    display: table;
+    width: 50%;
+}
+
+.tr {
+    display: table-row;
+}
+
+.thead {
+    display: table-header-group;
+}
+
+.tbody {
+    display: table-row-group;
+}
+
+.tfoot {
+    display: table-footer-group;
+}
+
+.col {
+    display: table-column;
+}
+
+.colgroup {
+    display: table-column-group;
+}
+
+.td,
+.th {
+    display: table-cell;
+    width: 50%;
+}
+
+.caption {
+    display: table-caption;
+}
+
+.table,
+.thead,
+.tbody,
+.tfoot,
+.tr,
+.td,
+.th {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.table {
+    background: #fff;
+    margin: auto;
+    border: none;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+
+.th {
+    font-weight: 700;
+    border: 1px solid #dedede;
+}
+
+.th:nth-child(odd) {
+    border-right: none;
+}
+
+.td {
+    font-weight: 300;
+    border: 1px solid #dedede;
+    border-top: none;
+}
+
+.td:nth-child(odd) {
+    border-right: none;
+}
+
+table {
+    padding: 0px;
+}

@@ -1,0 +1,56 @@
+<div class="happ-container">
+    <mat-toolbar>
+        <div fxLayout="column">
+            <h2>
+                Persona24
+            </h2>
+            <span style="font-size: 12px;">
+                        Aplikacja do zarządzani danymi osobowymi w ramach usługi iodo24.pl
+                    </span>
+        </div>
+        <span fxFlex></span>
+        <h3>Lista zbiorów danych firmy XXX, w których przetwarzane są Twoje dane</h3>
+        <span fxFlex></span>
+        <img style="height: 50px;" src="../assets/img/1.png">
+    </mat-toolbar>
+    <div fxLayout="row" style="padding:15px;">
+        <div style="max-width: 165px; border: 1px solid rgba(0,0,0,0.3); padding: 33px 20px;" fxLayout="column" fxLayoutAlign="space-around">
+            <button routerLink="/main" mat-raised-button>Strona główna</button>
+            <button routerLink="/your-data" color="primary" mat-raised-button>Twoje dane</button>
+            <button routerLink="/approvals" mat-raised-button>Zgody</button>
+            <button routerLink="/appeals" mat-raised-button>Wnioski</button>
+            <button routerLink="/information" mat-raised-button>Informacje</button>
+        </div>
+
+        <div fxFlex fxLayout="column" style="border: 1px solid rgba(0,0,0,0.3); border-left: 0px;padding: 5px;height: 80vh; overflow: auto; padding: 5px 27px; width: 100%;">
+
+            <div style="margin-bottom: 15px;">
+                <button mat-raised-button>źródło danych</button>
+                <button mat-raised-button>Informacje prawne</button>
+            </div>
+            <div fxLayout="row">
+                <div style="padding: 8px;" fxFlex="35" fxLayout="column">
+                    <fieldset style="height: 180px;">
+                        <legend>Dane administratora danych</legend>
+                    </fieldset>
+                    <fieldset style="height: 180px;">
+                        <legend>Profilowanie/Inne informacje</legend>
+                    </fieldset>
+                </div>
+                <div style="padding: 8px;" fxFlex="35">
+                    <fieldset style="height: 180px;">
+                        <legend>Dane w zbiorze</legend>
+                    </fieldset>
+                </div>
+                <div style="padding: 8px 23px;; height: 70vh; justify-content: space-around" fxFlex fxLayout="column">
+                    <button mat-raised-button color="warn">Prośba o korektę</button>
+                    <button mat-raised-button color="warn">Prośba o usunięcie</button>
+                    <button mat-raised-button color="warn">Prośba o zaprzestanie przetwarzania</button>
+                    <button mat-raised-button color="warn">Wnieś skargę do organu nadzorczego</button>
+                    <button mat-raised-button color="warn">Wnieś sprzeciw (RODO Art 21)</button>
+                    <button mat-raised-button color="warn">Prośba o przeniesienie</button>
+                    <button mat-raised-button color="warn">Wycofaj zgody</button>
+                </div>
+            </div>
+        </div>
+    </div>
